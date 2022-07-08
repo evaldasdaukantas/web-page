@@ -1,0 +1,296 @@
+@import url(//db.onlinewebfonts.com/c/4fcc11fc4f260f76df7cc68784a3e753?family=Albra+Display);
+@font-face {font-family: "Albra Display"; src: url("//db.onlinewebfonts.com/t/4fcc11fc4f260f76df7cc68784a3e753.eot"); src: url("//db.onlinewebfonts.com/t/4fcc11fc4f260f76df7cc68784a3e753.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4fcc11fc4f260f76df7cc68784a3e753.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4fcc11fc4f260f76df7cc68784a3e753.woff") format("woff"), url("//db.onlinewebfonts.com/t/4fcc11fc4f260f76df7cc68784a3e753.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4fcc11fc4f260f76df7cc68784a3e753.svg#Albra Display") format("svg"); }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5{
+    font-family: "Albra Display";
+}
+
+.navigation{
+    position: fixed;
+    background-color: white;
+}
+.navigation .container {
+    height: 95.06px;
+    padding: 24px 16px;
+    
+}
+.navigation .logo img{
+    height: 47.06px;
+}
+.navigation ul{
+    height: 47.06px;
+    list-style-type: none;
+    margin: auto;
+   
+}
+.navigation a{
+    font-size: 14px;
+    margin-left: 64px;
+    text-decoration: none;
+    color: #001727;
+}
+.navigation a:hover{
+    border-bottom: 1px solid #001727;
+    text-underline-offset: 7px;
+}
+
+
+.three{
+    height: 1345px;
+    margin-bottom: 80px;
+}
+section .three .col-sm-12,
+section .three .col-sm-16,
+h4, h3, p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+section .three .col-sm-12.text{
+    height: 250px;
+}
+section .three .col-sm-12.text h3{
+    font-size: 44px;
+    max-width: 50%;
+    margin: auto;
+}
+section .three .col-sm-6 p{
+    max-width: 80%;
+    font-weight: 500;
+    margin: auto;
+    font-size: 14px;
+    height: 125px;
+}
+section .three .col-sm-6 h4{
+    max-width: 70%;
+    font-weight: 500;
+    margin: auto;
+    font-size: 20px;
+    height: 18px;
+    padding-top: 20px;
+}
+section .three .col-sm-12 .image{
+    height: 500px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+section .three .col-sm-12 img{
+    width: 100%;
+    object-fit: cover;
+    padding: 0px;
+    margin: 0px;
+}
+section .three .col-sm-6 p {
+    width: 360px;
+    text-align: center;
+
+
+}
+section .three .col-sm-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section .second{
+    min-height: 720px;
+    width: 100% !important;
+    display: flex;
+
+} 
+section .second .image{
+    width: 50%;
+    height:720px;
+    margin: 0px;
+    padding: 0px;
+}
+section .second .image img{
+    width: 100%;
+    height: 680px;
+    max-height: 680px;
+    object-fit: cover;
+}
+
+section .second .text p{
+    max-width: 70%;
+    font-size: 16px;
+}
+section .second .text h2{
+    font-family: "Albra Display";
+    font-size: 48px;
+    max-width: 70%;
+}
+section .second .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 300px;
+    padding-left: 60px;
+}
+#second{
+    background-color: #F6CDB0;
+    height: 720px;
+
+}
+
+section .container.main{
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .container.main .col-sm-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .container.main h1{
+    font-size: 64px;
+    font-family: "Albra Display";
+    height: 9.32rem;
+    margin-top: 9.32rem;
+}
+button{
+    background-color: #001727;
+    color: white;
+    font-size: 14px;
+    padding: 14px 32px;
+    font-family: 'Poppins', sans-serif;
+}
+section .container.main img{
+    margin-top: 7.75rem;
+}
+.section-6{
+    background-color:#f1b884;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-6 .info-text h5{
+    text-align: center !important;
+    padding-bottom: 40px;
+    font-size: 32px;
+    width: 100% !important;
+    text-overflow: none;
+    font-weight: bold;
+
+}
+.section-6 .info-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.section-5 .card{
+    max-height: 160px;
+    border: 0;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.section-5 img{
+    object-fit: cover;
+    height: 220px;
+    width: auto;
+    float: right;
+    border-radius: 0px;
+}
+.section-5  p, h5{
+    text-align: left !important;
+    max-width: 600px;
+}
+.section-5{
+    padding: 40px;
+    height: 850px;
+}
+
+section .section-4{
+    min-height: 720px;
+    width: 100% !important;
+    display: flex;
+
+} 
+section .section-4 .image{
+
+    height:720px;
+    margin: 0px;
+    padding: 0px;
+}
+section .section-4 .image img{
+    width: 200%;
+    height: 680px;
+    max-height: 680px;
+    object-fit: cenonenter;
+}
+
+section .section-4 .text p{
+    max-width: 80%;
+    font-size: 16px;
+    text-align: justify;
+}
+section .section-4 .text h5{
+    font-family: "Albra Display";
+    font-size: 42px;
+    max-width: 50%;
+}
+section .section-4 .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    float: right;
+    height: 300px;
+
+}
+#section-4{
+    background-color: #f4e19d;
+    height: 720px;
+
+}
+footer .container .row{
+    height:250px;
+}
+footer .container .row .text-1 h6,p{
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+footer .container .row .text-1 h6{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+footer .container .row .text-1 p, .text-2 p{
+    font-size: 14px;
+}
+
+footer .container .row .text-2 h6,p{
+    text-align: left;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+footer .container .row .text-2 h6{
+    font-size: 20px;
+    font-weight:400;
+    margin-bottom: 20px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
